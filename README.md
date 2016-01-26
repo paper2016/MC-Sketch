@@ -25,7 +25,7 @@ Item's frequency can be defined as # of insertions minus # of deletions.
 The default file name for operations is "operations.dat", while "queries.dat" for query. 
 In `./workload`, we prepare one example for using those sketches for you, which apply 10K operations on 1K distinct key-value items. 
 And "kv1K_op10K.bench" indicating real frequencies for items is shown in the folder `./workload`. 
-More complex method in using `mcsketch` can be found out by `./bin/mcsketch -h` 
+More complex methods in using `mcsketch` can be found out by `./bin/mcsketch -h` 
 
 
 ## Workloads Generation
