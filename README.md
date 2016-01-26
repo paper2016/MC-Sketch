@@ -1,4 +1,4 @@
-# MC Sketch
+# the MC Sketch
 
 ## Introduction
 
