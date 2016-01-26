@@ -31,7 +31,7 @@ More complex methods in using `mcsketch` can be found out by `./bin/mcsketch -h`
 ## Workloads Generation
 To test the performance of sketches in different scenarios, we harness [YCSB](https://github.com/brianfrankcooper/YCSB.git) to generate two kinds of workloads: **uniform** and **skewed ([zipfian](https://en.wikipedia.org/wiki/Zipf%27s_law))**.
 We also use [memcached](https://github.com/memcached/memcached.git) and the generated workloads to record the real frequency of each item as benchmarks.
-After that, we feed the generated workloads our proposed MC sketch to record the estimation of itme frequency using this sketch.
+After that, we feed the generated workloads to our proposed MC sketch to record the estimation of itme frequency using the MC sketch.
 Then, we calculate the average relative error and empirical cumulative distribution function (CDF) of relative error using benchmarks and estimations.
 To compare the accuracy with other well known sketches (such as Count-min (CM) sketch, conservative update (CU) sketch, etc.), we can use the same method to get the average relative error and CDF.
 
