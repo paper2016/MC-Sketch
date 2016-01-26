@@ -4,7 +4,7 @@
 
 A **sketch** is a probabilistic data structure that is used to record frequencies of different items in a multi-set.
 Various types of sketches have been proposed in the literature and applied in a variety of fields, such as natural language processing, compressed sensing, network traffic analysis, and distributed data sets.
-While several variants of sketches have been proposed in the past, the existing sketches cannot improve the accuracy of the CM sketch while keeping the update ability.
+While several variants of sketches have been proposed in the past, the existing sketches cannot improve the accuracy of *the CM sketch* while keeping the update ability.
 Here, we propose a new sketch, ***the MC sketch***, that has significantly higher accuracy compared to prior art, while keeping the query speed and update speed unchanged.
 
 
