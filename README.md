@@ -1,4 +1,4 @@
-# the MC Sketch
+# The MC Sketch
 
 ## Introduction
 
@@ -37,7 +37,7 @@ To compare the accuracy with other well known sketches (such as Count-min (CM) s
 
 Run YCSB command
 
-	`bin/ycsb load basic -P workloads/workloadc -p fieldcount=1 -p fieldlength=32 -p recordcount=100000 -p operationcount=10000000 -p requestdistribution=uniform > workload/kv100K_op10M_uniform_init.raw`
-	`bin/ycsb run basic -P workloads/workloadc -p fieldcount=1 -p fieldlength=32 -p recordcount=100000 -p operationcount=10000000 -p requestdistribution=uniform > workload/kv100K_op10M_uniform_insert.raw`
+	bin/ycsb load basic -P workloads/workloadc -p fieldcount=1 -p fieldlength=32 -p recordcount=100000 -p operationcount=10000000 -p requestdistribution=uniform > workload/kv100K_op10M_uniform_init.raw
+	bin/ycsb run basic -P workloads/workloadc -p fieldcount=1 -p fieldlength=32 -p recordcount=100000 -p operationcount=10000000 -p requestdistribution=uniform > workload/kv100K_op10M_uniform_insert.raw
 
 to get uniform distributed workload on the 100K distinct items. Changing `requestdistribution=uniform` to `requestdistribution=zipfian`, we can get a zipfian distributed workload.
