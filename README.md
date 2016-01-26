@@ -28,7 +28,7 @@ And "kv1K_op10K.bench" indicating real frequencies for items is shown in the fol
 More complex method in using `mcsketch` can be found out by `./bin/mcsketch -h` 
 
 
-## Operation Generation
+## Workloads Generation
 To test the performance of sketches in different scenarios, we harness [YCSB](https://github.com/brianfrankcooper/YCSB.git) to generate two kinds of workloads: **uniform** and **skewed ([zipfian](https://en.wikipedia.org/wiki/Zipf%27s_law))**.
 We also use [memcached](https://github.com/memcached/memcached.git) and the generated workloads to record the real frequency of each item as benchmarks.
 After that, we feed the generated workloads our proposed MC sketch to record the estimation of itme frequency using this sketch.
