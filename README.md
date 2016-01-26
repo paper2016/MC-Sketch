@@ -12,14 +12,14 @@ Here, we propose a new sketch, ***the MC sketch***, that has significantly highe
 
 	$ sh build.sh
     
-There is a little example in `main.c`, which shows the basic usage of ***the MC sketch***. 
+There is an example in `main.c`, which shows the basic usage of ***the MC sketch***. 
 We also implement a series of **slim-fat sketches** (i.e. the SF1, SF2, SF3, SF4 and SF5 sketches) that lead to our final ***MC sketch***. For example, using `sh build.sh SF1` for our first version of slim-fat sketch (**the SF1 sketch**), we can get executable file: `sf1sketch` in `./bin`, while using `sh build.sh` or `sh build.sh MC`, we get `cmsketch` in `./bin`.
 
 ## Usage
 
 	$ ./bin/mcsketch
 
-We should feed two files to `mcsketch`. They are for insertion and deletion operations on items and query for them.
+We should feed two files to `mcsketch` or `sf1sketch`. They are for insertion and deletion operations on items and query for them.
 Note that we can apply insertion/deletion many times on a specific item. 
 Item's frequency can be defined as # of insertions minus # of deletions.
 The default file name for operations is "operations.dat", while "queries.dat" for query. 
