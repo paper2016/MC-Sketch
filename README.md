@@ -13,7 +13,7 @@ Here, we propose a new sketch, ***the MC sketch***, that has significantly highe
 	$ sh build.sh
     
 There is a little example in `main.c`, which shows the basic usage of ***the MC sketch***. 
-We also implement a series of sketches that lead to our final ***MC sketch***. They are **slim-fat sketches**. Using `sh build.sh SF1` for our first version of **slim-fat sketch**.
+We also implement a series of **slim-fat sketches** (i.e. the SF1, SF2, SF3, SF4 and SF5 sketches) that lead to our final ***MC sketch***. Using `sh build.sh SF1` for our first version of **slim-fat sketch**.
 
 ## Usage
 
